@@ -6,6 +6,7 @@
 }
 
 .installation-container {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -14,11 +15,11 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 80vw;
-    height: calc(80vh - 90px);
+    width: 88vw;
+    height: calc(88vh - 90px);
     border-radius: 15px;
     background-color: var(--dark-transparency);
-    padding: 0px 50px;
+    padding: 40px 50px;
 }
 
 .installation-title {
@@ -37,8 +38,8 @@
 }
 
 .installation-option-title {
-    font-size: 130%;
-    font-weight: 400;
+    font-size: 125%;
+    font-weight: 500;
     color: var(--main-color);
     margin: 0;
     padding: 0;
@@ -52,6 +53,9 @@
     outline-color: var(--main-color);
     outline-width: 1px;
     outline-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .installation-option:hover {
@@ -70,12 +74,15 @@
     border-radius: 8px;
     padding: 15px;
     width: 45vw;
+    font-size: 95%;
+    font-weight: 500;
 }
 
 .installation-button:hover {
     background-color: var(--dark-transparency);
     transition: 0.3s;
 }
+
 </style>
 
 <section class="installation-section">
@@ -83,19 +90,19 @@
         <h2 class="installation-title">Install Sigma</h2>
         <div class="installation-option-container">
             <h4 class="installation-option-title">Edition</h4>
-            <div class="installation-option"></div>
+            <div class="installation-option">Classic</div>
         </div>
         <div class="installation-option-container">
             <h4 class="installation-option-title">Version</h4>
-            <div class="installation-option"></div>
+            <div class="installation-option">0.0.4</div>
         </div>
         <div class="installation-option-container">
             <h4 class="installation-option-title">Theme</h4>
-            <div class="installation-option"></div>
+            <div class="installation-option">Symplex Green</div>
         </div>
         <div class="installation-option-container">
             <h4 class="installation-option-title">Username</h4>
-            <div class="installation-option"></div>
+            <div class="installation-option">preview</div>
         </div>
         <button class="installation-button">Install Sigma</button>
     </div>
