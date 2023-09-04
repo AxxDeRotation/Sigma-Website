@@ -8,8 +8,9 @@
     --contrast-color: #0e0e0e;
     --main-accentuation-color: #60e7b9;
     --main-bg-color: #101928;
-    --dark-transparency: rgba(0, 0, 0, 0.2);
+    --dark-transparency: rgba(0, 0, 0, 0.35);
     --accentuation-transparency: rgba(96, 231, 185, 0.6);
+    --transparent: rgba(255, 255, 255, 0);
 }
 
 :global(body) {
