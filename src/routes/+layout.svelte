@@ -50,8 +50,8 @@ nav {
 <header>
     <img src={main_logo} class="main-logo" alt="Main Logo" />
     <nav>
-        <a href="./index.html" class="nav-link">Home</a>
-        <a href="./install.html" class="nav-link">Install</a>
+        <a href="/" class="nav-link">Home</a>
+        <a href="/install" class="nav-link">Install</a>
         <a href="./simulator.html" class="nav-link">Simulator</a>
         <a href="./aboutus.html" class="nav-link">About Us</a>
     </nav>

@@ -5,7 +5,7 @@
 
 <style>
 .hero-section {
-    background-image: url({banner});
+    background-image: url('$lib/img/HeroBanner.webp');
     background-size: cover;
     height: calc(100vh - 90px);
 }
