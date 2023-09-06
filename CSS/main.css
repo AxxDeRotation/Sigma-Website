@@ -1,0 +1,230 @@
+:root {
+    --main-color: #f5f5f5;
+    --contrast-color: #0e0e0e;
+    --main-accentuation-color: #60e7b9;
+    --main-bg-color: #101928;
+    --dark-transparency: rgba(0, 0, 0, 0.2);
+    --accentuation-transparency: rgba(96, 231, 185, 0.6);
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 15px;
+    height: 60px;
+}
+
+.main-logo {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 15px;
+}
+
+/*--------------------------------------------------------------*/
+
+.hero-section {
+    background-image: url(../Assets/Images/HeroBanner.webp);
+    background-size: cover;
+    height: calc(100vh - 90px);
+}
+
+.hero-logo {
+    position: absolute;
+    right: 20px;
+    bottom: calc(45px + 20px);
+    height: 100px;
+    margin: 0;
+    padding: 0;   
+}
+
+.hero-description {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--main-bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------------------------*/
+
+.features-section {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+    margin: 0vw 3vw;
+    height: 100%;
+}
+
+.features-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--main-color);
+    margin: 0;
+    padding: 0;
+}
+
+.features-title-bg {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-50%);
+    padding: 25px;
+    border-radius: 8px;
+    background-color: var(--dark-transparency);
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-inline-start: 0px;
+    top: calc(100px + 30px + 50px);
+}
+
+.features-list-items {
+    text-decoration: none;
+    list-style: none;
+    border-radius: 8px;
+    background-color: var(--dark-transparency);
+    width: 18vw;
+    height: 18vw;
+    margin-bottom: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features-list-items:hover {
+    background-color: var(--accentuation-transparency);
+    transition: 0.3s;
+}
+
+.features-list-items-title {
+    font-size: 150%;
+    font-weight: 600;
+    color: var(--main-color);
+    margin: 0px 40px;
+    margin-top: 60px;
+    padding: 0;
+    text-align: center;
+}
+
+.features-list-items-description {
+    font-size: 100%;
+    font-weight: 400;
+    color: var(--main-color);
+    margin: 0px 40px;
+    margin-bottom: 60px;
+    padding: 0;
+    text-align: justify;
+}
+
+/*----------------------------------------------*/
+
+.installation-section {
+    background-image: url(../Assets/Images/HeroBanner.webp);
+    background-size: cover;
+    height: calc(100vh - 90px);
+}
+
+.installation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: calc(80vh - 90px);
+    border-radius: 15px;
+    background-color: var(--accentuation-transparency);
+    padding: 0px 50px;
+}
+
+.installation-title {
+    font-size: 240%;
+    font-weight: 600;
+    color: var(--main-color);
+    margin: 0;
+    padding: 0;
+}
+
+.installation-option-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45vw;
+}
+
+.installation-option-title {
+    font-size: 130%;
+    font-weight: 400;
+    color: var(--main-color);
+    margin: 0;
+    padding: 0;
+}
+
+.installation-option {
+    width: 30vw;
+    height: 7vh;
+    border-radius: 8px;
+    background-color: var(--accentuation-transparency);
+    outline-color: var(--main-color);
+    outline-width: 1px;
+    outline-style: solid;
+}
+
+.installation-option:hover {
+    background-color: var(--main-accentuation-color);
+    transition: 0.3s;
+}
+
+.installation-button {
+    position: relative;
+    display: block;
+    background-color: var(--accentuation-transparency);
+    color: var(--main-color);
+    border-style: solid;
+    border-color: var(--main-color);
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 15px;
+    width: 45vw;
+}
+
+.installation-button:hover {
+    background-color: var(--main-accentuation-color);
+    transition: 0.3s;
+}
