@@ -53,7 +53,7 @@ nav {
     <nav>
         <a href="/" class="nav-link">Home</a>
         <a href="/install" class="nav-link">Install</a>
-        <a href="/simulator" class="nav-link">Simulator</a>
+        <!--<a href="/simulator" class="nav-link">Simulator</a>-->
         <!--<a href="./aboutus.html" class="nav-link">About Us</a>-->
     </nav>
 </header>

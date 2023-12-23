@@ -83,6 +83,11 @@
     transition: 0.3s;
 }
 
+a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
 </style>
 
 <section class="installation-section">
@@ -94,7 +99,7 @@
         </div>
         <div class="installation-option-container">
             <h4 class="installation-option-title">Version</h4>
-            <div class="installation-option">0.0.4</div>
+            <div class="installation-option">1.0.4</div>
         </div>
         <div class="installation-option-container">
             <h4 class="installation-option-title">Theme</h4>
@@ -104,6 +109,8 @@
             <h4 class="installation-option-title">Username</h4>
             <div class="installation-option">preview</div>
         </div>
-        <button class="installation-button">Install Sigma</button>
+        <a href="./" download="epsilon.onboarding.A.bin">
+            <button class="installation-button">Download Sigma</button>
+        </a>
     </div>
 </section>
